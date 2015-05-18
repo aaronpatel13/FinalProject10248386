@@ -49,12 +49,12 @@ class Helper {
 	}
 	
 	
-	public static function shortenString($string, $len = 150) {
+	public static function shortenString($string, $len = 350) {
 		if (strlen($string) > $len) {
 			$string = trim(substr($string, 0, $len));
-			$string = substr($string, 0, strrpos($string, " "))."&hellip;";
+			$string = substr($string, 0, strrpos($string, " "))."";
 		} else {
-			$string .= "&hellip;";
+			$string .= "";
 		}
 		return $string;
 	}

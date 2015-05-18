@@ -65,6 +65,15 @@ $business = $objBusiness->getBusiness();
 
 					?>
 					</ul>
+			<h2> Opening Hours </h2>
+			<p1> <strong>Monday</strong> 12:00pm - 11:00pm</p1><br>
+			<p1> <strong>Tuesday</strong> 12:00pm - 11:00pm</p1><br>
+			<p1> <strong>Wednesday</strong> 12:00pm - 11:00pm</p1><br>
+			<p1> <strong>Thursday</strong> 12:00pm - 11:00pm</p1><br>
+			<p1> <strong>Friday</strong> 12:00pm - 11:00pm</p1><br>
+			<p1> <strong>Saturday</strong> 12:00pm - 12:00am</p1><br>
+			<p1> <strong>Sunday</strong> 12:00am - 10:00pm</p1><br>
+
 
 
 				<?php } ?>

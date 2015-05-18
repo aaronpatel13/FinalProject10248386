@@ -1,5 +1,5 @@
 <?php 
-
+include 'Login.php';
 
 if (Login::isLogged(Login::$_login_front)) {
 	Helper::redirect(Login::$_dashboard_front);

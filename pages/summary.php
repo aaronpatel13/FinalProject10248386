@@ -100,7 +100,7 @@ require_once("_header.php");
 
 		<div class="sbm sbm_blue fl_r paypal" 
 			id="<?php echo $token1; ?>">
-			<span class="btn">Proceed to PayPal</span>
+			<a href="/?page=orderconfirmation" class="btn"> Complete Order</a>
 		</div>
 
          <div class="sbm sbm_blue fl_l">
@@ -113,10 +113,6 @@ require_once("_header.php");
 	
 	<div class="dev">&#160;</div>
 	
-</div>
-
-<div class="dn">
-	<img src="/images/loadinfo.net.gif" alt="Proceeding to PayPal" />
 </div>
 
 <?php } else { ?>
